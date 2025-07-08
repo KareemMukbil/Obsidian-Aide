@@ -37,6 +37,12 @@ VAULT_PATH = r"D:\PATH\TO\YOUR\VAULT"  # ← UPDATE THIS PATH
 ```powershell
 # Run setup script
 .\setup.ps1
+
+# Activate
+.\venv\Scripts\activate
+
+# Install dependencies
+pip install -r requirements.txt
 ```
 
 ### 5. Install Mistral Model
