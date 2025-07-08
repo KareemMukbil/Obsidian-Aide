@@ -125,7 +125,7 @@ class ObsidianVaultIngester:
         print(f"Index saved to {self.index_path}")
 
 if __name__ == "__main__":
-    VAULT_PATH = r"D:\FILES\Notes\Obsidian\My Life"
+    VAULT_PATH = r"D:\PATH\TO\YOUR\VAULT"
     
     if not os.path.exists(VAULT_PATH):
         print(f"Error: Vault path doesn't exist\n{VAULT_PATH}")
