@@ -30,7 +30,7 @@ pip install virtualenv
 **Before running**, edit `ingest.py`:
 ```python
 # Near bottom of ingest.py
-VAULT_PATH = r"D:\FILES\Notes\Obsidian\My Life"  # ← UPDATE THIS PATH
+VAULT_PATH = r"D:\PATH\TO\YOUR\VAULT"  # ← UPDATE THIS PATH
 ```
 
 ### 4. Setup Environment
